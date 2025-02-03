@@ -37,6 +37,10 @@
                         'text-primary': '#FFDC26',
                         'bg-primary': '#F9DF8A',
                         'bg-success': '#FFF9F4',
+                        'bg-purple': '#F8CCFB',
+                        'bg-blue': '#ACD2FD',
+                        'bg-yellow': '#F9DF8A',
+
                     }
                 }
             }
@@ -47,7 +51,7 @@
 <body>
     <header class="font-sora mt-5 bg-bg-success  lg:border-hidden w-[400px] lg:w-full relative left-3 ">
         <!-- nav section start -->
-        <nav class="w-11/12 mx-auto  ">
+        <nav class="max-w-screen-xl mx-auto  ">
             <div class="navbar  ">
                 <div class="navbar-start">
 
@@ -89,7 +93,7 @@
 
         <!-- banner section start -->
         <section class="bg-white ">
-            <div class="z-10 relative w-11/12 mx-auto">
+            <div class="z-10 relative max-w-screen-xl mx-auto">
                 <div class="space-y-4   relative top-10 w-full p-2">
                     <h1 class="lg:text-5xl text-3xl font-bold  ">Pamper Your Pet,<br>Because They Deserve <br> the Bes
                     </h1>
@@ -111,11 +115,11 @@
     <!-- main section start -->
     <main>
         <!-- Browse By Categories section start -->
-        <section class="w-11/12 mx-auto lg:mt-[350px] mt-[230px]">
+        <section class="max-w-screen-xl mx-auto lg:mt-[350px] mt-[230px] relative left-4">
             <h1 class="lg:text-4xl text-3xl font-bold">Browse By Categories</h1>
-            <div class="grid grid-cols-2 lg:grid-cols-6 gap-5 mt-10">
+            <div class="grid grid-cols-2 lg:grid-cols-6 lg:gap-5 gap-2 mt-10">
                 <!-- card-1 -->
-                <div class="card bg-bg-primary  shadow-xl">
+                <div class="card bg-bg-primary w-[190px] shadow-xl">
                     <figure class="px-10 pt-10">
                         <img src="./assets/dog-cartoon.png" alt="dog-cartoon" class="rounded-full bg-white p-6" />
                     </figure>
@@ -126,7 +130,7 @@
                 </div>
 
                 <!-- card-2 -->
-                <div class="card bg-bg-primary  shadow-xl">
+                <div class="card bg-bg-primary w-[190px]  shadow-xl">
                     <figure class="px-10 pt-10">
                         <img src="./assets/fish-cartoon.png" alt="fish-cartoon" class="rounded-full bg-white p-6" />
                     </figure>
@@ -138,7 +142,7 @@
 
 
                 <!-- card-3 -->
-                <div class="card bg-bg-primary  shadow-xl">
+                <div class="card bg-bg-primary w-[190px]  shadow-xl">
                     <figure class="px-10 pt-10">
                         <img src="./assets/cat-cartoon.png" alt="cat-cartoon" class="rounded-full bg-white p-6" />
                     </figure>
@@ -150,7 +154,7 @@
 
 
                 <!-- card-4 -->
-                <div class="card bg-bg-primary  shadow-xl">
+                <div class="card bg-bg-primary w-[190px] shadow-xl">
                     <figure class="px-10 pt-10">
                         <img src="./assets/bird-cartoon.png" alt="bird-cartoon" class="rounded-full bg-white p-6" />
                     </figure>
@@ -162,7 +166,7 @@
 
 
                 <!-- card-5 -->
-                <div class="card bg-bg-primary  shadow-xl">
+                <div class="card bg-bg-primary w-[190px] shadow-xl">
                     <figure class="px-10 pt-10">
                         <img src="./assets/mouse-cartoon.png" alt="mouse-cartoon" class="rounded-full bg-white p-6" />
                     </figure>
@@ -174,7 +178,7 @@
 
 
                 <!-- card-6 -->
-                <div class="card bg-bg-primary  shadow-xl">
+                <div class="card bg-bg-primary w-[190px] shadow-xl">
                     <figure class="px-10 pt-10">
                         <img src="./assets/rabbit-cartoon.png" alt="rabbit" class="rounded-full bg-white p-6" />
                     </figure>
@@ -189,31 +193,31 @@
 
         <!-- Trending Pet Products section start -->
 
-        <section class="bg-bg-success lg:mt-32 mt-24 lg:h-[600px] h-[1000px]">
-            <div class="w-11/12 mx-auto ">
+        <section class="bg-bg-success lg:mt-32 mt-24 lg:h-[600px] h-[1000px] ">
+            <div class="max-w-screen-xl mx-auto ">
 
-                <div class="relative lg:top-[100px] top-[50px]">
-                    <h1 class="lg:text-4xl text-3xl font-bold ">Trending Pet Products</h1>
+                <div class="relative lg:top-[100px] top-[50px] ">
+                    <h1 class="lg:text-4xl text-3xl font-bold relative left-4">Trending Pet Products</h1>
                     <div class="mt-10 flex flex-col lg:flex-row lg:justify-between lg:items-center gap-5 ">
 
-                        <div class="card bg-bg-primary shadow-xl lg:h-[350px] h-[375px] relative">
+                        <div
+                            class="card bg-bg-primary w-[400px]  lg:w-[450px] shadow-xl lg:h-[350px] h-[375px] relative left-4 ">
                             <div class="card-body space-y-3">
                                 <h2 class="card-title text-2xl font-bold">T-Shirt For Dogs</h2>
                                 <p>Dog T-shirts are not just a fashion statement—they provide comfort,<br> protection,
                                     and a
                                     cute
                                     look for your pup!</p>
-                                <div class="relative -top-[130px] lg:-top-[120px] w-[163px]"><a
+                                <div class="relative -top-[130px] lg:-top-[100px] w-[163px]"><a
                                         class="btn px-8 bg-white text-lg font-semibold">Shop
                                         Now</a></div>
                             </div>
-                            <figure class="h-[300px] absolute lg:right-10 -right-3 lg:top-14 top-20">
+                            <figure class="h-[300px] absolute lg:-right-3 -right-3 lg:top-14 top-20">
                                 <img class=" h-full " src="./assets/cute-pet-small.png" alt="cute-pet" />
                             </figure>
                         </div>
 
-                        <div
-                            class="grid grid-cols-2 lg:grid-cols-3 gap-x-10 lg:gap-x-0 gap-y-3 lg:gap-y-0 lg:gap-3 lg:flex-1 p-4 relative right-4">
+                        <div class="grid grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-3 lg:flex-1 p-4">
                             <!-- 1 -->
                             <div
                                 class="p-3 flex justify-around items-center shadow-xl bg-white  w-[190px] lg:w-[250px] rounded-lg ">
@@ -358,11 +362,115 @@
             </div>
         </section>
         <!-- Trending Pet Products section end -->
+
+
+        <!-- Everyday low Price section start -->
+        <section class="max-w-screen-xl mx-auto mt-20 ">
+            <h1 class="lg:text-4xl text-3xl font-bold relative left-4">Everyday low Price</h1>
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 mt-10 p-2">
+
+                <div
+                    class="lg:col-span-7 col-span-12 p-3 bg-gradient-to-l from-bg-purple to-bg-blue grid grid-cols-2 gap-2 content-around items-center rounded-xl ">
+
+                    <div class="space-y-3 ">
+                        <h4 class="text-xl">Under Price</h4>
+                        <h2><span class="text-2xl font-bold">Pet Grooming Mitt</span><br><span
+                                class="text-white text-xl">(Easy
+                                Hair Removal)</span></h2>
+                        <p class="text-4xl font-bold">$7.99</p>
+                    </div>
+                    <div>
+                        <img class="h-[350px]" src="./assets/cute-dog-mid.png" alt="">
+                    </div>
+
+                </div>
+                <div
+                    class=" lg:col-span-5  col-span-12 bg-gradient-to-l from-bg-yellow to-bg-success grid grid-cols-2 gap-2 content-around  rounded-xl">
+                    <div class="relative top-12 lg:left-16 left-10 space-y-3">
+                        <h2 class="text-2xl font-bold">T-Shirt for Dogs</h2>
+                        <p class="text-4xl font-bold text-text-primary">$7.99</p>
+                    </div>
+                    <div class="relative  h-[300px]">
+                        <img class="lg:h-[350px] h-[300px]" src="./assets/cute-pet-mid.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!-- Everyday low Price section end -->
+        <!-- grocery section start -->
+        <section class="max-w-screen-xl mx-auto mt-24 w-[395px] lg:w-full ">
+
+            <div class=" relative left-3 w-[390px] lg:w-full">
+                <div class=" z-10 absolute bg-bg-success rounded-2xl lg:w-full w-[390px]  -left-[13px]">
+                    <div
+                        class="flex flex-col lg:flex-row lg:justify-evenly lg:items-center gap-5 h-[600px] lg:h-[400px] ">
+                        <div class=""><img class="top-5 relative lg:left-0 left-[100px] lg:h-[350px] h-[250px]"
+                                src="./assets/cute-pet-mid.png" alt="">
+                        </div>
+                        <div class="space-y-5 lg:relative lg:top-4 text-center lg:text-start">
+                            <h2 class="lg:text-4xl text-3xl font-bold mt-5 text-text-primary lg:text-black">Get Grocery
+                                News!</h2>
+                            <p class="lg:text-xl text-xl font-semibold p-3 lg:p-0">Exclusive training tips, ticks,
+                                product
+                                deals
+                                and more.</p>
+                            <input class="lg:w-[450px] w-[300px] h-[50px] p-5 rounded-lg" type="email" name="" id=""
+                                placeholder="Enter email......">
+                            <div class=""><a
+                                    class=" btn btn-success text-white hover:bg-sky-500 px-10 text-lg text-center">Subscribe</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- grocery section end -->
     </main>
     <!-- main section end -->
-    <!-- footer start-->
-    <footer></footer>
-    <!-- footer end-->
+
+    <!-- footer section start -->
+    <footer
+        class="footer bg-text-primary  text-base-content p-10 w-[410px] lg:w-full h-[700px] lg:h-[400px] relative left-[4px] lg:top-60 top-[350px]">
+
+        <nav class="relative lg:left-[100px] lg:top-[190px] top-[300px]">
+            <div class="flex gap-3">
+                <a class="link"><img src="./assets/logo-footer.png" alt=""></a>
+                <a class="btn btn-ghost text-xl ">Browse<span class="text-bg-success">4</span>Pets</a>
+            </div>
+            <p class="text-white w-[350px] text-lg">Discover a world of treats, toys, and essentials handpicked for your
+                furry
+                friends</p>
+        </nav>
+        <nav class="relative lg:left-[130px] lg:top-[190px] top-[200px]">
+            <h6 class="footer-title text-lg font-bold text-white ">Product</h6>
+            <a class="link link-hover text-lg font-bold text-white">Services</a>
+            <a class="link link-hover text-lg font-bold text-white">Contact us</a>
+        </nav>
+        <nav class="relative lg:left-[200px] lg:top-[220px] top-[100px]">
+            <h6 class="footer-title font-bold text-lg text-white">Follow Us</h6>
+            <div class="grid grid-flow-col gap-4 text-white">
+                <a>
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a>
+                    <i class="fa-brands fa-instagram "></i>
+                </a>
+                <a>
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a>
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+
+            </div>
+        </nav>
+
+    </footer>
+    <!-- footer section end -->
 </body>
 
 </html>
